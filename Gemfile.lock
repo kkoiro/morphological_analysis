@@ -46,8 +46,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  natto
-  twitter
+  natto (= 1.1.0)
+  twitter (= 5.16.0)
 
 BUNDLED WITH
    1.12.5
