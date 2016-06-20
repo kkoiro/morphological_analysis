@@ -27,11 +27,14 @@ This calculate similarity from two dictionaries by using cosine similarity metho
 ## Software versions
 - Ruby 2.3.1p112
 - natto 1.1.0
-- twitter
+- twitter 5.16.0
+- mecab 0.996
 
 
 ## Installation
 ```
+brew install mecab macab-ipadic
+gem install bundler
 bundle install --path vendor/bundler
 vim template.yml # add your developer's keys for accessing twitter
 mv template.yml config.yml
