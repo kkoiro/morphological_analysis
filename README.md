@@ -7,14 +7,14 @@ I made this as getting started of merphological analysis
 
 
 ## Introduction
-* timeline_analysis.rb  
+* timeline_analysis.rb
 You can know how many times the noun words were used in one's past tweets
 
-* user_description_analysis.rb  
-You can know how many times the noun words were used in one's profile and their friends' it
+* user_description_analysis.rb
+You can know how many times the noun words were used in both one's and his/her friends' profiles
 
-note:  
-It's impossible to get protected users information
+**note:**  
+It's impossible to get protected users' information
 
 
 ## Software versions
@@ -26,7 +26,7 @@ It's impossible to get protected users information
 ## Installation
 ```
 bundle install --path vendor/bundler
-vim template.yml # add your developer keys for accessing twitter
+vim template.yml # add your developer's keys for accessing twitter
 mv template.yml config.yml
 ```
 
