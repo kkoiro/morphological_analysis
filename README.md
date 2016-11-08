@@ -14,7 +14,7 @@ You can know how many times the noun words were used in one's past tweets. The d
 You can know how many times the noun words were used in both one's and his/her friends' profiles. The data you can get is a text file in which word and word count(how many times the word appeared) are written on every line in csv format.
 
 * calculation_similarity.rb
-This calculate similarity from two dictionaries by using cosine similarity method. Dictionary means a csv file which is composed of word and word count(how many times the word appeared), and one set of them are devided by 'LF' or 'CR'. When we make 'corpus' which is a kind of vector, used parameters(words) in target dictionary follow base dictionary them.
+This calculate similarity from two dictionaries by using cosine similarity method. Dictionary means a csv file which is composed of words and words' counts(how many times the word appeared). Each words is seperated by 'LF' or 'CR'. 'Corpus', which is a kind of vector, is created based on used parameters(words) in base dictionary.
 
 ### note:
 1. It's impossible to get protected users' information.
